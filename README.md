@@ -21,6 +21,10 @@ xgboost model trained using the [Credit Card Fraud Detection](https://www.kaggle
 
 Dataset imbalanced is tackled using SMOTE.
 
+### Current Performance
+Precision: 0.93
+Recall: 0.8
+
 ### Input
 ```
 {
