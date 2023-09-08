@@ -16,7 +16,7 @@ def do_prediction():
 
     y_predict = model.predict(dmat_reg)
 
-    result = {"FraudPr" : float(y_predict[0])}
+    result = {"fraudPr" : float(y_predict[0])}
     return jsonify(result)
 
 if __name__ == "__main__":
