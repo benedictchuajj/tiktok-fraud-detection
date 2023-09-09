@@ -12,7 +12,7 @@ docker run -d -p 5000:5000 fraud-model
 ```
 4. Invoke the model using curl/any other REST client:
 ```
-curl --location --request POST 'http://localhost:5000/predict' --header 'Content-Type: application/json' --data-raw '{ "category": "travel", "amt": 300, "lat": 40.1362, "long": -95.2138, "merch_lat": 40.591103, "merch_long": -94.445245, "age": 70, "hour": 17, "day": 6, "month": 7 }' 
+curl --location --request POST 'http://localhost:5000/predict' --header 'Content-Type: application/json' --data-raw '{ "category": "travel", "amt": 300, "lat": 40.1362, "lon": -95.2138, "merch_lat": 40.591103, "merch_lon": -94.445245, "age": 70, "hour": 17, "day": 6, "month": 7 }' 
 ```
 
 ## Model Details:
@@ -31,9 +31,9 @@ Recall: 0.8
     "category": category*,
     "amt": float,
     "lat": float,
-    "long": float,
+    "lon": float,
     "merch_lat": float,
-    "merch_long": float,
+    "merch_lon": float,
     "age": int,
     "hour": int,
     "day": int,
