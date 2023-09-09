@@ -1,4 +1,4 @@
-# Tiktok Fraud Detection ML Model
+# TikTok Hackathon 2023 Fraud Detection ML Model
 
 ## Quick Start
 1. Clone this repository.
